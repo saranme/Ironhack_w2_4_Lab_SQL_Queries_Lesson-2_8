@@ -60,8 +60,9 @@ FROM rental r
 JOIN customer c
 ON c.customer_id = r.customer_id
 GROUP BY 1, 2, 3
-ORDER BY 2 DESC
+ORDER BY 4 DESC
 LIMIT 1;
+
 
 -- 6
 /*
